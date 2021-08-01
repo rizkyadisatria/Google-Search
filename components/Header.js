@@ -37,7 +37,10 @@ function Header() {
             onClick={() => (searchInputRef.current.value = "")}
           />
           <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300" />
-          <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
+          <SearchIcon
+            onClick={search}
+            className="cursor-pointer h-6 text-blue-500 hidden sm:inline-flex"
+          />
           <button hidden type="submit" onClick={search}>
             Search
           </button>

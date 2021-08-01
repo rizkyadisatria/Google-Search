@@ -56,7 +56,7 @@ export default function Home() {
           width={300}
         />
         <div className="flex w-10/12 mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
-          <SearchIcon className="h-5 mr-3 text-gray-500" />
+          <SearchIcon className=" h-5 mr-3 text-gray-500" />
           <input
             ref={searchInputRef}
             type="text"
